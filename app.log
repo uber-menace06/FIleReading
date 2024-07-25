@@ -1,0 +1,20 @@
+2024-07-22 22:11:14,394 - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.datablist.com/sample/csv/1000/rows
+2024-07-22 22:11:27,970 - ERROR - Error processing the CSV file: [Errno 2] No such file or directory: 'customers-1000.csv'
+2024-07-22 22:11:53,559 - ERROR - HTTP error occurred: 404 Client Error: Not Found for url: https://www.datablist.com/sample/csv/1000/rows
+2024-07-22 22:12:20,201 - ERROR - Error processing the CSV file: [Errno 2] No such file or directory: 'customers-1000.csv'
+2024-07-22 22:13:28,640 - ERROR - Error processing the CSV file: 'DoB'
+2024-07-22 22:19:48,310 - ERROR - File /mnt/data/people-1000.csv does not exist.
+2024-07-22 22:19:53,377 - ERROR - File /mnt/data/people-1000.csv does not exist.
+2024-07-22 22:19:58,915 - ERROR - File /mnt/data/people-1000.csv does not exist.
+2024-07-22 22:26:35,385 ERROR:Error processing file people-1000.csv: time data "2014-01-27" doesn't match format "%d-%m-%Y", at position 0. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.
+2024-07-22 22:28:32,518 INFO:Successfully split people-1000.csv into records_before.csv and records_after.csv based on DoB.
+2024-07-22 22:38:20,004 INFO:Successfully split people-1000.csv into records_before.csv and records_after.csv based on DoB.
+2024-07-22 22:39:54,141 ERROR:Error processing file people-1000.csv: [Errno 13] Permission denied: 'records_before.csv'
+2024-07-22 22:40:29,775 INFO:Successfully split people-1000.csv into records_before.csv and records_after.csv based on DoB.
+2024-07-22 22:41:00,380 INFO:Successfully split people-1000.csv into records_before.csv and records_after.csv based on DoB.
+2024-07-22 22:53:03,164 INFO:Successfully split people-1000.csv into records_before.csv and records_after.csv based on DoB.
+2024-07-22 22:56:33,140 INFO:Successfully split people-1000.csv into records_before.csv and records_after.csv based on DoB.
+2024-07-22 22:57:42,287 ERROR:Error processing file people-1000.csv: [Errno 13] Permission denied: 'records_before.csv'
